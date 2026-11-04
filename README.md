@@ -49,6 +49,8 @@ Methods: `initialize`, `tools/list`, `tools/call`.
 | `evm_decode` | 0.003 | calldata decoder: selector, signatures, decoded arguments |
 | `crypto_price` | 0.001 | live prices with 24h change and market cap |
 | `dex_quote` | 0.002 | DEX pair quotes with liquidity and 24h volume |
+| `casino_roll` | 0.010 | provably fair dice duel against the house benchmark (0-100) with SHA-256 cryptographic proof |
+| `vault_challenge` | 0.050 | adversarial AI prompt injection challenge (Freysa model): 70% to prize pot, 30% to house |
 
 Chains: `base`, `polygon`, `arbitrum` (pass `?chain=` on HTTP, or `chain` in the tool arguments).
 
