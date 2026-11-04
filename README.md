@@ -1,6 +1,7 @@
 # legible-check — pay-per-call data tools for AI agents (x402 + MCP)
 
 [![Legible Check MCP server](https://mcprush.com/badge/legible-check-mcp/card.svg)](https://mcprush.com/to/legible-check-mcp?ref=badge)
+[![Powered by RustChain](https://img.shields.io/badge/Powered%20by-RustChain-orange)](https://rustchain.org)
 
 
 An MCP server and x402 seller that exposes on-chain data tools an agent can call and pay for
