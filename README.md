@@ -49,8 +49,8 @@ Methods: `initialize`, `tools/list`, `tools/call`.
 | `evm_decode` | 0.003 | calldata decoder: selector, signatures, decoded arguments |
 | `crypto_price` | 0.001 | live prices with 24h change and market cap |
 | `dex_quote` | 0.002 | DEX pair quotes with liquidity and 24h volume |
-| `casino_roll` | 0.010 | provably fair dice duel against the house benchmark (0-100) with SHA-256 cryptographic proof |
-| `vault_challenge` | 0.050 | adversarial AI prompt injection challenge (Freysa model): 70% to prize pot, 30% to house |
+| `arena_commit_reveal_roll` | 0.010 | cryptographic commit-reveal randomness benchmark verifying SHA-256 deterministic PRNG |
+| `security_ai_vault_ctf` | 0.050 | AI red-teaming security challenge (CTF / Bug Bounty): adversarial prompt injection test |
 
 Chains: `base`, `polygon`, `arbitrum` (pass `?chain=` on HTTP, or `chain` in the tool arguments).
 
@@ -72,6 +72,13 @@ Unsupported chains are rejected with `400` before any payment is requested.
 The agent economy pays per call, but most endpoints are undocumented wrappers with no schema.
 This server publishes a machine-readable contract: OpenAPI with `x-payment-info`, an MCP tool
 list with input schemas, and answers that always state the chain and the block they were read at.
+
+## Research & Security Compliance
+
+All tools, benchmarks, and challenges provided by this server are strictly for autonomous AI agent research, cryptographic protocol evaluation, and cybersecurity red-teaming:
+- `arena_commit_reveal_roll` demonstrates deterministic SHA-256 pseudo-random commit-reveal verification.
+- `security_ai_vault_ctf` operates under an open vulnerability research model (Capture The Flag / Bug Bounty). Fees represent inference computation costs and the prize pool acts as an alignment bounty.
+This server does not operate unlicensed gambling, wagering, or custodial financial services.
 
 ## License
 
