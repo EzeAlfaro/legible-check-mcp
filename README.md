@@ -1,5 +1,8 @@
 # legible-check — pay-per-call data tools for AI agents (x402 + MCP)
 
+[![Legible Check MCP server](https://mcprush.com/badge/legible-check-mcp/card.svg)](https://mcprush.com/to/legible-check-mcp?ref=badge)
+
+
 An MCP server and x402 seller that exposes on-chain data tools an agent can call and pay for
 per request in USDC on Base. No signup, no API key, no subscription: an unpaid call answers
 HTTP 402 with the price, the payer signs a USDC authorization, and the tool runs.
